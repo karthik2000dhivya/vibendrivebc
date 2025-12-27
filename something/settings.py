@@ -150,6 +150,12 @@ REST_FRAMEWORK = {
       ],
 }
 
+ALLOWED_HOSTS = [
+    'vibendrivebc.onrender.com', 
+    'localhost', 
+    '127.0.0.1'
+]
+
 # SIMPLE_JWT = {
 #      'ACCESS_TOKEN_LIFETIME': timedelta(minutes=10),
 #      'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
